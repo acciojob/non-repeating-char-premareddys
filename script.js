@@ -12,7 +12,7 @@ function firstNonRepeatedChar(str) {
 
   for (let ch in count) {
     if (count[ch] === 1) {
-      return `  ${ch}  `;
+      return `  (${ch})  `;
     }
   }
   return "null";
